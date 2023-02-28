@@ -4,8 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Row {
-    List<Double> data =  new ArrayList<>();
-        public List<Double> getData(){
-            return data;
+    private List<Double> data;
+
+    public Row(){
+        super();
+        data=new ArrayList<>();
+    }
+
+    public List<Double> getData(){
+        return data;
     }
 }
