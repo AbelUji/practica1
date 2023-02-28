@@ -11,6 +11,9 @@ public class Row {
         data=new ArrayList<>();
     }
 
+    public void addDatoFila(Double dato){
+        data.add(dato);
+    }
     public List<Double> getData(){
         return data;
     }

@@ -6,8 +6,14 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 public class Table {
-    private List<String> header= new ArrayList<>();
-    private List<Row> rows = new ArrayList<>();
+    private List<String> header;
+    private List<Row> rows;
+
+    public Table(){
+        super();
+        header=new ArrayList<>();
+        rows=new ArrayList<>();
+    }
     public Row getRowAt(int rowNumber){
         if (rows.size()<rowNumber){
             throw new NoSuchElementException();
