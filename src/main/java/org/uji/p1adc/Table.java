@@ -1,7 +1,6 @@
 package org.uji.p1adc;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -14,13 +13,6 @@ public class Table {
         header=new ArrayList<>();
         rows=new ArrayList<>();
     }
-    public Row getRowAt(int rowNumber){
-        if (rows.size()<rowNumber){
-            throw new NoSuchElementException();
-        }
-
-        return rows.get(rowNumber-1);
-    }
 
     public void addHeader(String cabecera){
         header.add(cabecera);
@@ -32,5 +24,21 @@ public class Table {
         }
 
         rows.add(fila);
+    }
+
+    public List<String> getHeader(){
+        return header;
+    }
+
+    public List<Row> getRows(){
+        return rows;
+    }
+
+    public Row getRowAt(int rowNumber){
+        if (rows.size()<rowNumber){
+            throw new NoSuchElementException();
+        }
+
+        return rows.get(rowNumber-1);
     }
 }
