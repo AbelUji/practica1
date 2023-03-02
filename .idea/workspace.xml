@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="694170cb-0aba-4d4a-9676-9ec9744f131f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iris.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miles_dollars.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practica1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSVTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/RowWithLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/RowWithLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/TableWithLabels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,45 @@
       <recent name="org.uji.p1adc" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.CSVTest">
+    <configuration name="CSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uji.p1adc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uji.p1adc" />
+      <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.CSVTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSVTest.numeroFilas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uji.p1adc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uji.p1adc" />
+      <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.CSVTest" />
+      <option name="METHOD_NAME" value="numeroFilas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CSVTest" />
+        <item itemvalue="JUnit.CSVTest.numeroFilas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677775727574</updated>
-      <workItem from="1677775728864" duration="1662000" />
+      <workItem from="1677775728864" duration="5128000" />
     </task>
     <servers />
   </component>

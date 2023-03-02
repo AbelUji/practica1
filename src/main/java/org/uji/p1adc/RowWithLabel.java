@@ -1,11 +1,11 @@
 package org.uji.p1adc;
 
 public class RowWithLabel extends Row{
-    int numberClass;
+    private int numberClass;
 
     public RowWithLabel(){
         super();
-        numberClass=-1;
+        numberClass=0;
     }
 
     public void addNumberClass(int numero){

@@ -47,11 +47,9 @@ public class CSV {
             }
 
             if (!tabla.getEtiquetas().containsKey(datos[datos.length-1])){
-                fila.addNumberClass(tabla.getNumClass());
                 tabla.addEtiqueta(datos[datos.length-1]);
-            }else{
-                fila.addNumberClass(tabla.getNumClass());
             }
+            fila.addNumberClass(tabla.getEtiquetas().get(datos[datos.length-1]));
             tabla.addRow(fila);
         }
         return tabla;

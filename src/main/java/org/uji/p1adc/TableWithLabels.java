@@ -6,15 +6,13 @@ import java.util.NoSuchElementException;
 
 public class TableWithLabels extends Table{
     private Map<String,Integer> labelsToIndex;
-    private static int num_clases;
 
     public TableWithLabels(){
-        num_clases=0;
         labelsToIndex=new HashMap<>();
     }
 
     public void addRow(RowWithLabel fila){
-        if (fila.getData().size()!=getHeader().size()){
+        if (fila.getData().size()!=getHeader().size()-1){
             throw new ArrayIndexOutOfBoundsException();
         }
 
@@ -22,21 +20,20 @@ public class TableWithLabels extends Table{
     }
 
     public void addEtiqueta(String etiqueta){
-        labelsToIndex.put(etiqueta,num_clases++);
+        labelsToIndex.put(etiqueta,labelsToIndex.size());
     }
 
-    public int getNumClass(){
-        return num_clases;
-    }
 
     public Map<String,Integer> getEtiquetas(){
         return labelsToIndex;
     }
+
+    @Override
     public RowWithLabel getRowAt(int rowNumber){
         if (getRows().size()<rowNumber){
             throw new NoSuchElementException();
         }
 
-        return null;
+        return (RowWithLabel) getRows().get(rowNumber-1);
     }
 }
