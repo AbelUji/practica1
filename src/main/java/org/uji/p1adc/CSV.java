@@ -1,11 +1,12 @@
 package org.uji.p1adc;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class CSV {
-    public Table readTable(String filename) throws IOException {
+    public Table readTable(String filename) throws FileNotFoundException {
         Table tabla=new Table();
         Scanner lector=new Scanner(new File(filename));
         String linea = lector.nextLine();
@@ -26,7 +27,7 @@ public class CSV {
         return tabla;
     }
 
-    public TableWithLabels readTableWithLabels(String filename) throws IOException {
+    public TableWithLabels readTableWithLabels(String filename) throws FileNotFoundException {
         TableWithLabels tabla=new TableWithLabels();
 
         Scanner lector=new Scanner(new File(filename));

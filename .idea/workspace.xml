@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c290a530-a65d-4b5d-86de-9d44685d253a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+    <list default="true" id="694170cb-0aba-4d4a-9676-9ec9744f131f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSVTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miles_dollars.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practica1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/RowWithLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/RowWithLabel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/TableWithLabels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,7 +32,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MQG4cQGRD5hxBX3moUF4BI3e8b" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MSzMld8QUBw296W3MojdBJaYI3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,22 +49,44 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.uji.p1adc" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c290a530-a65d-4b5d-86de-9d44685d253a" name="Changes" comment="" />
-      <created>1677692205453</created>
+      <changelist id="694170cb-0aba-4d4a-9676-9ec9744f131f" name="Changes" comment="" />
+      <created>1677775727574</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677692205453</updated>
-      <workItem from="1677692206879" duration="4888000" />
+      <updated>1677775727574</updated>
+      <workItem from="1677775728864" duration="1662000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
