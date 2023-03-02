@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -45,6 +46,7 @@ class CSVTest {
         System.out.println("Salida esperada: "+ 150);
         System.out.println("Salida obtenida: "+ tabla2.getRows().size());
 
+        System.out.println("-----------------------------");
     }
 
     @org.junit.jupiter.api.Test
@@ -54,7 +56,7 @@ class CSVTest {
         System.out.println("Caso 1: numero columnas sin etiqueta");
         assertEquals(2,tabla1.getHeader().size());
         System.out.println("Salida esperada: "+ 2);
-        System.out.println("Salida obtenida: "+ tabla1.getRows().size());
+        System.out.println("Salida obtenida: "+ tabla1.getHeader().size());
 
         System.out.println("-----------------------------");
 
@@ -62,7 +64,7 @@ class CSVTest {
         System.out.println("Caso 2: numero columnas con etiqueta");
         assertEquals(5,tabla2.getHeader().size());
         System.out.println("Salida esperada: "+ 5);
-        System.out.println("Salida obtenida: "+ tabla2.getRows().size());
+        System.out.println("Salida obtenida: "+ tabla2.getHeader().size());
 
         System.out.println("-----------------------------");
     }
@@ -70,9 +72,7 @@ class CSVTest {
     @org.junit.jupiter.api.Test
     @DisplayName("Test nombre de etiquetas")
     void nombreEtiquetas() {
-        List<String> etiquetas=new ArrayList<>();
-        etiquetas.add("Miles");
-        etiquetas.add("Dollars");
+        List<String> etiquetas=Arrays.asList("Miles","Dollars");
 
         //Primera prueba
         System.out.println("Caso 1: nombre etiquetas 1");
@@ -84,12 +84,7 @@ class CSVTest {
 
         //Segunda prueba
 
-        List<String> etiquetas2=new ArrayList<>();
-        etiquetas2.add("sepal length");
-        etiquetas2.add("sepal width");
-        etiquetas2.add("petal length");
-        etiquetas2.add("petal width");
-        etiquetas2.add("class");
+        List<String> etiquetas2=Arrays.asList("sepal length","sepal width","petal length","petal width","class");
 
         System.out.println("Caso 1: nombre etiquetas 2");
         assertEquals(etiquetas2,tabla2.getHeader());
@@ -108,11 +103,7 @@ class CSVTest {
     @org.junit.jupiter.api.Test
     @DisplayName("Test recuperar datos")
     void recuperarDatos() {
-        List<Double> lista=new ArrayList<>();
-        lista.add(4.6);
-        lista.add(3.1);
-        lista.add(1.5);
-        lista.add(0.2);
+        List<Double> lista= Arrays.asList(5.0,3.6,1.4,0.2);
 
         assertEquals(lista,tabla2.getRowAt(4).getData());
     }

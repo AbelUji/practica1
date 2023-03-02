@@ -34,6 +34,6 @@ public class TableWithLabels extends Table{
             throw new NoSuchElementException();
         }
 
-        return (RowWithLabel) getRows().get(rowNumber-1);
+        return (RowWithLabel) getRows().get(rowNumber);
     }
 }
