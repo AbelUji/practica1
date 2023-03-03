@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="694170cb-0aba-4d4a-9676-9ec9744f131f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/KNNTest.java" afterDir="false" />
+    <list default="true" id="fb989f0c-4a99-46d2-b7b4-b4dd9f57a492" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practica1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/CSVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/KNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/KNN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/TableWithLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/uji/p1adc/CSVTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/uji/p1adc/CSVTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/uji/p1adc/TableWithLabels.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/uji/p1adc/TableWithLabels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/KNNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/uji/p1adc/KNNTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,14 +33,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2MSzMld8QUBw296W3MojdBJaYI3" />
+  <component name="ProjectId" id="2MVci6qjqh6xmpOYSUHbQawX0wl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,24 +41,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.uji.p1adc" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.KNNTest">
-    <configuration name="CSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KNNTest.calcularDistancia">
+    <configuration name="CSVTest.nombreEtiquetas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practica1" />
       <extension name="coverage">
         <pattern>
@@ -74,28 +61,45 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.uji.p1adc" />
       <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.CSVTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVTest.numeroFilas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practica1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.uji.p1adc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.uji.p1adc" />
-      <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.CSVTest" />
-      <option name="METHOD_NAME" value="numeroFilas" />
+      <option name="METHOD_NAME" value="nombreEtiquetas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KNNTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CSVTest.numeroAsignado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uji.p1adc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uji.p1adc" />
+      <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.CSVTest" />
+      <option name="METHOD_NAME" value="numeroAsignado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSVTest.recuperarDatos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uji.p1adc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uji.p1adc" />
+      <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.CSVTest" />
+      <option name="METHOD_NAME" value="recuperarDatos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KNNTest.calcularDistancia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practica1" />
       <extension name="coverage">
         <pattern>
@@ -105,43 +109,51 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.uji.p1adc" />
       <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.KNNTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="calcularDistancia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KNNTest.estimate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practica1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.uji.p1adc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.uji.p1adc" />
+      <option name="MAIN_CLASS_NAME" value="org.uji.p1adc.KNNTest" />
+      <option name="METHOD_NAME" value="estimate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KNNTest" />
-        <item itemvalue="JUnit.CSVTest" />
-        <item itemvalue="JUnit.CSVTest.numeroFilas" />
+        <item itemvalue="JUnit.KNNTest.calcularDistancia" />
+        <item itemvalue="JUnit.KNNTest.estimate" />
+        <item itemvalue="JUnit.CSVTest.recuperarDatos" />
+        <item itemvalue="JUnit.CSVTest.numeroAsignado" />
+        <item itemvalue="JUnit.CSVTest.nombreEtiquetas" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="694170cb-0aba-4d4a-9676-9ec9744f131f" name="Changes" comment="" />
-      <created>1677775727574</created>
+      <changelist id="fb989f0c-4a99-46d2-b7b4-b4dd9f57a492" name="Changes" comment="" />
+      <created>1677856315916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677775727574</updated>
-      <workItem from="1677775728864" duration="9546000" />
+      <updated>1677856315916</updated>
+      <workItem from="1677856317196" duration="4460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

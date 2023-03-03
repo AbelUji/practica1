@@ -9,6 +9,9 @@ public class CSV {
     public Table readTable(String filename) throws FileNotFoundException {
         Table tabla=new Table();
         Scanner lector=new Scanner(new File(filename));
+        if (!lector.hasNextLine()){
+            return tabla;
+        }
         String linea = lector.nextLine();
         String [] datos=linea.split(",");
         for(String valor: datos){
